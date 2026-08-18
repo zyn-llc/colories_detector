@@ -1,0 +1,443 @@
+{
+  "version": "v1",
+  "note": "Display layer for the 42 classifier classes. 'class_name' is the frozen dataset slug and the join key to the model - never rename it. 'origin' records the dish's culinary origin, since the training set is a Kazakh dataset. 'uz_name_type' is 'equivalent' when a genuine Uzbek dish name exists, 'transliteration' when the dish is not Uzbek and the name is only rendered in Uzbek script. 'status' controls whether the app surfaces the class: active | hidden.",
+  "classes": [
+    {
+      "class_name": "achichuk",
+      "name_uz": "Achichuk",
+      "name_ru": "Ачичук",
+      "name_en": "Achichuk salad",
+      "origin": "uz",
+      "uz_name_type": "equivalent",
+      "status": "active",
+      "nutrition_slug": "achichuk"
+    },
+    {
+      "class_name": "airan-katyk",
+      "name_uz": "Ayron / Qatiq",
+      "name_ru": "Айран / Катык",
+      "name_en": "Ayran / Katyk",
+      "origin": "shared",
+      "uz_name_type": "equivalent",
+      "status": "hidden",
+      "nutrition_slug": null,
+      "hidden_reason": "no reliable sourced nutrition data"
+    },
+    {
+      "class_name": "asip",
+      "name_uz": "Hasip",
+      "name_ru": "Хасип",
+      "name_en": "Khasip",
+      "origin": "shared",
+      "uz_name_type": "equivalent",
+      "status": "active",
+      "nutrition_slug": "hasip"
+    },
+    {
+      "class_name": "bauyrsak",
+      "name_uz": "Bo'g'irsoq",
+      "name_ru": "Баурсак",
+      "name_en": "Bauyrsak",
+      "origin": "kz",
+      "uz_name_type": "equivalent",
+      "status": "active",
+      "nutrition_slug": "bauyrsak"
+    },
+    {
+      "class_name": "beshbarmak-w-kazy",
+      "name_uz": "Beshbarmoq (qazi bilan)",
+      "name_ru": "Бешбармак с казы",
+      "name_en": "Beshbarmak with kazy",
+      "origin": "kz",
+      "uz_name_type": "transliteration",
+      "status": "active",
+      "nutrition_slug": "beshbarmoq"
+    },
+    {
+      "class_name": "beshbarmak-wo-kazy",
+      "name_uz": "Beshbarmoq (qazisiz)",
+      "name_ru": "Бешбармак без казы",
+      "name_en": "Beshbarmak without kazy",
+      "origin": "kz",
+      "uz_name_type": "transliteration",
+      "status": "active",
+      "nutrition_slug": "beshbarmoq"
+    },
+    {
+      "class_name": "chak-chak",
+      "name_uz": "Chak-chak",
+      "name_ru": "Чак-чак",
+      "name_en": "Chak-chak",
+      "origin": "other",
+      "uz_name_type": "transliteration",
+      "status": "active",
+      "nutrition_slug": "chak-chak"
+    },
+    {
+      "class_name": "cheburek",
+      "name_uz": "Chebrak",
+      "name_ru": "Чебурек",
+      "name_en": "Cheburek",
+      "origin": "other",
+      "uz_name_type": "transliteration",
+      "status": "hidden",
+      "nutrition_slug": null,
+      "hidden_reason": "no reliable sourced nutrition data"
+    },
+    {
+      "class_name": "doner-lavash",
+      "name_uz": "Doner (lavashda)",
+      "name_ru": "Донер в лаваше",
+      "name_en": "Doner in lavash",
+      "origin": "other",
+      "uz_name_type": "transliteration",
+      "status": "hidden",
+      "nutrition_slug": null,
+      "hidden_reason": "no reliable sourced nutrition data"
+    },
+    {
+      "class_name": "doner-nan",
+      "name_uz": "Doner (nonda)",
+      "name_ru": "Донер в лепешке",
+      "name_en": "Doner in flatbread",
+      "origin": "other",
+      "uz_name_type": "transliteration",
+      "status": "hidden",
+      "nutrition_slug": null,
+      "hidden_reason": "no reliable sourced nutrition data"
+    },
+    {
+      "class_name": "hvorost",
+      "name_uz": "Xvorost (pati)",
+      "name_ru": "Хворост",
+      "name_en": "Hvorost",
+      "origin": "other",
+      "uz_name_type": "transliteration",
+      "status": "hidden",
+      "nutrition_slug": null,
+      "hidden_reason": "no reliable sourced nutrition data"
+    },
+    {
+      "class_name": "irimshik",
+      "name_uz": "Irimshik",
+      "name_ru": "Иримшик",
+      "name_en": "Irimshik",
+      "origin": "kz",
+      "uz_name_type": "transliteration",
+      "status": "hidden",
+      "nutrition_slug": null,
+      "hidden_reason": "no reliable sourced nutrition data"
+    },
+    {
+      "class_name": "kattama-nan",
+      "name_uz": "Qatlama non",
+      "name_ru": "Катлама",
+      "name_en": "Kattama flatbread",
+      "origin": "uz",
+      "uz_name_type": "equivalent",
+      "status": "hidden",
+      "nutrition_slug": null,
+      "hidden_reason": "no reliable sourced nutrition data"
+    },
+    {
+      "class_name": "kazy-karta",
+      "name_uz": "Qazi-qarta",
+      "name_ru": "Казы-карта",
+      "name_en": "Kazy-karta",
+      "origin": "kz",
+      "uz_name_type": "equivalent",
+      "status": "active",
+      "nutrition_slug": "kazy-karta"
+    },
+    {
+      "class_name": "kurt",
+      "name_uz": "Qurt",
+      "name_ru": "Курт",
+      "name_en": "Kurt",
+      "origin": "shared",
+      "uz_name_type": "equivalent",
+      "status": "active",
+      "nutrition_slug": "kurt"
+    },
+    {
+      "class_name": "kuyrdak",
+      "name_uz": "Qovurdoq",
+      "name_ru": "Куырдак",
+      "name_en": "Kuyrdak",
+      "origin": "kz",
+      "uz_name_type": "equivalent",
+      "status": "active",
+      "nutrition_slug": "kuyrdak"
+    },
+    {
+      "class_name": "kymyz-kymyran",
+      "name_uz": "Qimiz / Qimron",
+      "name_ru": "Кумыс / Кымыран",
+      "name_en": "Kymyz / Kymyran",
+      "origin": "kz",
+      "uz_name_type": "transliteration",
+      "status": "hidden",
+      "nutrition_slug": null,
+      "hidden_reason": "no reliable sourced nutrition data"
+    },
+    {
+      "class_name": "lagman-fried",
+      "name_uz": "Qovurma lag'mon",
+      "name_ru": "Жареный лагман",
+      "name_en": "Fried lagman",
+      "origin": "uz",
+      "uz_name_type": "equivalent",
+      "status": "active",
+      "nutrition_slug": "lagmon"
+    },
+    {
+      "class_name": "lagman-w-soup",
+      "name_uz": "Suyuq lag'mon",
+      "name_ru": "Лагман с бульоном",
+      "name_en": "Lagman with soup",
+      "origin": "uz",
+      "uz_name_type": "equivalent",
+      "status": "active",
+      "nutrition_slug": "lagmon"
+    },
+    {
+      "class_name": "lagman-wo-soup",
+      "name_uz": "Quyuq lag'mon",
+      "name_ru": "Лагман без бульона",
+      "name_en": "Lagman without soup",
+      "origin": "uz",
+      "uz_name_type": "equivalent",
+      "status": "active",
+      "nutrition_slug": "lagmon"
+    },
+    {
+      "class_name": "manty",
+      "name_uz": "Manti",
+      "name_ru": "Манты",
+      "name_en": "Manti",
+      "origin": "shared",
+      "uz_name_type": "equivalent",
+      "status": "active",
+      "nutrition_slug": "manti"
+    },
+    {
+      "class_name": "naryn",
+      "name_uz": "Norin",
+      "name_ru": "Нарын",
+      "name_en": "Naryn",
+      "origin": "uz",
+      "uz_name_type": "equivalent",
+      "status": "active",
+      "nutrition_slug": "norin"
+    },
+    {
+      "class_name": "nauryz-kozhe",
+      "name_uz": "Navro'z ko'jasi",
+      "name_ru": "Наурыз коже",
+      "name_en": "Nauryz kozhe",
+      "origin": "kz",
+      "uz_name_type": "transliteration",
+      "status": "hidden",
+      "nutrition_slug": null,
+      "hidden_reason": "no reliable sourced nutrition data"
+    },
+    {
+      "class_name": "orama",
+      "name_uz": "O'rama",
+      "name_ru": "Орама",
+      "name_en": "Orama",
+      "origin": "shared",
+      "uz_name_type": "equivalent",
+      "status": "hidden",
+      "nutrition_slug": null,
+      "hidden_reason": "no reliable sourced nutrition data"
+    },
+    {
+      "class_name": "plov",
+      "name_uz": "Osh (palov)",
+      "name_ru": "Плов",
+      "name_en": "Plov",
+      "origin": "uz",
+      "uz_name_type": "equivalent",
+      "status": "active",
+      "nutrition_slug": "osh-palov"
+    },
+    {
+      "class_name": "samsa",
+      "name_uz": "Somsa",
+      "name_ru": "Самса",
+      "name_en": "Samsa",
+      "origin": "uz",
+      "uz_name_type": "equivalent",
+      "status": "active",
+      "nutrition_slug": "somsa"
+    },
+    {
+      "class_name": "shashlyk-chicken",
+      "name_uz": "Tovuq kabob",
+      "name_ru": "Шашлык куриный",
+      "name_en": "Chicken shashlik",
+      "origin": "shared",
+      "uz_name_type": "equivalent",
+      "status": "active",
+      "nutrition_slug": "kabob-shashlik"
+    },
+    {
+      "class_name": "shashlyk-chicken-v",
+      "name_uz": "Tovuq kabob (variant)",
+      "name_ru": "Шашлык куриный (вариант)",
+      "name_en": "Chicken shashlik (variant)",
+      "origin": "shared",
+      "uz_name_type": "equivalent",
+      "status": "active",
+      "nutrition_slug": "kabob-shashlik"
+    },
+    {
+      "class_name": "shashlyk-kuskovoi",
+      "name_uz": "Bo'lak kabob",
+      "name_ru": "Шашлык кусковой",
+      "name_en": "Chunk shashlik",
+      "origin": "shared",
+      "uz_name_type": "equivalent",
+      "status": "active",
+      "nutrition_slug": "kabob-shashlik"
+    },
+    {
+      "class_name": "shashlyk-kuskovoi-v",
+      "name_uz": "Bo'lak kabob (variant)",
+      "name_ru": "Шашлык кусковой (вариант)",
+      "name_en": "Chunk shashlik (variant)",
+      "origin": "shared",
+      "uz_name_type": "equivalent",
+      "status": "active",
+      "nutrition_slug": "kabob-shashlik"
+    },
+    {
+      "class_name": "shashlyk-minced-meat",
+      "name_uz": "Qiyma kabob",
+      "name_ru": "Шашлык из фарша",
+      "name_en": "Minced-meat shashlik",
+      "origin": "shared",
+      "uz_name_type": "equivalent",
+      "status": "active",
+      "nutrition_slug": "kabob-shashlik"
+    },
+    {
+      "class_name": "sheep-head",
+      "name_uz": "Qo'y boshi",
+      "name_ru": "Баранья голова",
+      "name_en": "Sheep head",
+      "origin": "kz",
+      "uz_name_type": "equivalent",
+      "status": "hidden",
+      "nutrition_slug": null,
+      "hidden_reason": "no reliable sourced nutrition data"
+    },
+    {
+      "class_name": "shelpek",
+      "name_uz": "Shelpek",
+      "name_ru": "Шелпек",
+      "name_en": "Shelpek",
+      "origin": "kz",
+      "uz_name_type": "transliteration",
+      "status": "hidden",
+      "nutrition_slug": null,
+      "hidden_reason": "no reliable sourced nutrition data"
+    },
+    {
+      "class_name": "shorpa",
+      "name_uz": "Sho'rva",
+      "name_ru": "Шурпа",
+      "name_en": "Shorpa",
+      "origin": "uz",
+      "uz_name_type": "equivalent",
+      "status": "active",
+      "nutrition_slug": "shorva"
+    },
+    {
+      "class_name": "soup-plain",
+      "name_uz": "Oddiy sho'rva",
+      "name_ru": "Простой суп",
+      "name_en": "Plain soup",
+      "origin": "shared",
+      "uz_name_type": "equivalent",
+      "status": "hidden",
+      "nutrition_slug": null,
+      "hidden_reason": "no reliable sourced nutrition data"
+    },
+    {
+      "class_name": "sushki",
+      "name_uz": "Sushki",
+      "name_ru": "Сушки",
+      "name_en": "Sushki",
+      "origin": "other",
+      "uz_name_type": "transliteration",
+      "status": "hidden",
+      "nutrition_slug": null,
+      "hidden_reason": "no reliable sourced nutrition data"
+    },
+    {
+      "class_name": "suzbe",
+      "name_uz": "Suzma",
+      "name_ru": "Сузьма",
+      "name_en": "Suzma",
+      "origin": "shared",
+      "uz_name_type": "equivalent",
+      "status": "hidden",
+      "nutrition_slug": null,
+      "hidden_reason": "no reliable sourced nutrition data"
+    },
+    {
+      "class_name": "taba-nan",
+      "name_uz": "Taba non",
+      "name_ru": "Таба нан",
+      "name_en": "Taba flatbread",
+      "origin": "shared",
+      "uz_name_type": "equivalent",
+      "status": "hidden",
+      "nutrition_slug": null,
+      "hidden_reason": "no reliable sourced nutrition data"
+    },
+    {
+      "class_name": "talkan-zhent",
+      "name_uz": "Talqon / Jent",
+      "name_ru": "Талкан / Жент",
+      "name_en": "Talkan / Zhent",
+      "origin": "kz",
+      "uz_name_type": "transliteration",
+      "status": "hidden",
+      "nutrition_slug": null,
+      "hidden_reason": "no reliable sourced nutrition data"
+    },
+    {
+      "class_name": "tushpara-fried",
+      "name_uz": "Qovurilgan chuchvara",
+      "name_ru": "Жареные пельмени",
+      "name_en": "Fried dumplings",
+      "origin": "uz",
+      "uz_name_type": "equivalent",
+      "status": "active",
+      "nutrition_slug": "chuchvara"
+    },
+    {
+      "class_name": "tushpara-w-soup",
+      "name_uz": "Chuchvara (sho'rvada)",
+      "name_ru": "Пельмени в бульоне",
+      "name_en": "Dumplings in broth",
+      "origin": "uz",
+      "uz_name_type": "equivalent",
+      "status": "active",
+      "nutrition_slug": "chuchvara"
+    },
+    {
+      "class_name": "tushpara-wo-soup",
+      "name_uz": "Chuchvara",
+      "name_ru": "Пельмени",
+      "name_en": "Dumplings",
+      "origin": "uz",
+      "uz_name_type": "equivalent",
+      "status": "active",
+      "nutrition_slug": "chuchvara"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+# Runtime dependencies for the deployed Streamlit demo.
+#
+# CPU-only torch: the default PyPI wheels bundle CUDA and exceed the ~1 GB image
+# budget on Streamlit Community Cloud. This index serves the CPU builds (~200 MB).
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+torch
+torchvision
+streamlit
+Pillow
+numpy
+albumentations
+
+# headless, NOT opencv-python: the regular wheel links against libGL, which is not
+# installed on Streamlit Cloud's Linux image, and import fails with
+# "ImportError: libGL.so.1: cannot open shared object file".
+opencv-python-headless

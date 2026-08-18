@@ -1,0 +1,27 @@
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.env
+# Local Claude Code launch config -- has a machine-specific absolute path.
+.claude/
+reports/*.csv
+reports/*.json
+models/*.pth
+models/*.pt
+models/*.quarantine
+!models/README.md
+!models/class_mapping.json
+!models/model_config.json
+!models/metrics.json
+!models/classification_report.csv
+# The production checkpoint (16 MB, well under GitHub's 100 MB limit) MUST be
+# committed: Streamlit Community Cloud builds only from the repository, so an
+# ignored checkpoint means the deployed app has no model to load.
+!models/efficientnet_b0_central_asian_food_v1.pth

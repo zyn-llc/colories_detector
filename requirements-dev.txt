@@ -1,0 +1,11 @@
+# Training and testing extras, on top of requirements.txt. Not installed on
+# Streamlit Community Cloud -- keeping training-only deps (kagglehub, sklearn,
+# matplotlib, pandas) out of the deploy requirements is what keeps that image
+# inside its size budget. See requirements.txt for why that file exists on its own.
+-r requirements.txt
+
+pytest
+pandas
+scikit-learn
+matplotlib
+kagglehub

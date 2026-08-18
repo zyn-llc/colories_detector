@@ -1,0 +1,427 @@
+[
+  {
+    "slug": "osh-palov",
+    "name_uz": "Osh (palov)",
+    "name_ru": "Плов",
+    "name_en": "Osh (pilaf)",
+    "nutrition_per_100g": {
+      "calories_kcal": 217,
+      "protein_g": 6.9,
+      "fat_g": 12.6,
+      "carbohydrates_g": 19.0
+    },
+    "source": "Osh Tracker",
+    "source_url": "https://oshtracker.uz/taomlar/osh-kaloriyasi/"
+  },
+  {
+    "slug": "somsa",
+    "name_uz": "Somsa",
+    "name_ru": "Самса",
+    "name_en": "Samsa",
+    "nutrition_per_100g": {
+      "calories_kcal": 223,
+      "protein_g": 8.0,
+      "fat_g": 10.5,
+      "carbohydrates_g": 24.0
+    },
+    "source": "Osh Tracker",
+    "source_url": "https://oshtracker.uz/taomlar/somsa-kaloriyasi/"
+  },
+  {
+    "slug": "manti",
+    "name_uz": "Manti",
+    "name_ru": "Манты",
+    "name_en": "Manti",
+    "nutrition_per_100g": {
+      "calories_kcal": 185,
+      "protein_g": 9.5,
+      "fat_g": 6.5,
+      "carbohydrates_g": 22.0
+    },
+    "source": "Osh Tracker",
+    "source_url": "https://oshtracker.uz/taomlar/manti-kaloriyasi/"
+  },
+  {
+    "slug": "shorva",
+    "name_uz": "Sho'rva (shurpa)",
+    "name_ru": "Шурпа",
+    "name_en": "Shurpa",
+    "nutrition_per_100g": {
+      "calories_kcal": 83,
+      "protein_g": 3.5,
+      "fat_g": 5.0,
+      "carbohydrates_g": 6.0
+    },
+    "source": "Osh Tracker",
+    "source_url": "https://oshtracker.uz/taomlar/shorva-kaloriyasi/"
+  },
+  {
+    "slug": "lagmon",
+    "name_uz": "Lag'mon",
+    "name_ru": "Лагман",
+    "name_en": "Lagman",
+    "nutrition_per_100g": {
+      "calories_kcal": 143,
+      "protein_g": 6.0,
+      "fat_g": 7.0,
+      "carbohydrates_g": 14.0
+    },
+    "source": "Osh Tracker",
+    "source_url": "https://oshtracker.uz/taomlar/lagmon-kaloriyasi/"
+  },
+  {
+    "slug": "non-patir",
+    "name_uz": "Non (patir)",
+    "name_ru": "Лепешка (патыр)",
+    "name_en": "Flatbread (patir)",
+    "nutrition_per_100g": {
+      "calories_kcal": 259,
+      "protein_g": 8.0,
+      "fat_g": 3.0,
+      "carbohydrates_g": 50.0
+    },
+    "source": "Osh Tracker",
+    "source_url": "https://oshtracker.uz/taomlar/non-kaloriyasi/"
+  },
+  {
+    "slug": "dimlama",
+    "name_uz": "Dimlama",
+    "name_ru": "Димлама",
+    "name_en": "Dimlama",
+    "nutrition_per_100g": {
+      "calories_kcal": 114,
+      "protein_g": 7.0,
+      "fat_g": 6.0,
+      "carbohydrates_g": 8.0
+    },
+    "source": "Osh Tracker",
+    "source_url": "https://oshtracker.uz/taomlar/dimlama-kaloriyasi/"
+  },
+  {
+    "slug": "qovurma",
+    "name_uz": "Qovurma",
+    "name_ru": "Кавурма",
+    "name_en": "Kavurma",
+    "nutrition_per_100g": {
+      "calories_kcal": 280,
+      "protein_g": 24.0,
+      "fat_g": 20.0,
+      "carbohydrates_g": 1.0
+    },
+    "source": "Osh Tracker",
+    "source_url": "https://oshtracker.uz/taomlar/qovurma-kaloriyasi/"
+  },
+  {
+    "slug": "chuchvara",
+    "name_uz": "Chuchvara",
+    "name_ru": "Чучвара",
+    "name_en": "Chuchvara",
+    "nutrition_per_100g": {
+      "calories_kcal": 198,
+      "protein_g": 10.4,
+      "fat_g": 6.0,
+      "carbohydrates_g": 25.5
+    },
+    "source": "Osh Tracker",
+    "source_url": "https://oshtracker.uz/taomlar/chuchvara-kaloriyasi/"
+  },
+  {
+    "slug": "beshbarmoq",
+    "name_uz": "Beshbarmoq",
+    "name_ru": "Бешбармак",
+    "name_en": "Beshbarmak",
+    "nutrition_per_100g": {
+      "calories_kcal": 151,
+      "protein_g": 9.0,
+      "fat_g": 7.0,
+      "carbohydrates_g": 13.0
+    },
+    "source": "Osh Tracker",
+    "source_url": "https://oshtracker.uz/taomlar/beshbarmoq-kaloriyasi/"
+  },
+  {
+    "slug": "xonim",
+    "name_uz": "Xonim",
+    "name_ru": "Ханум",
+    "name_en": "Khanum",
+    "nutrition_per_100g": {
+      "calories_kcal": 186,
+      "protein_g": 8.0,
+      "fat_g": 10.0,
+      "carbohydrates_g": 16.0
+    },
+    "source": "Osh Tracker",
+    "source_url": "https://oshtracker.uz/taomlar/xonim-kaloriyasi/"
+  },
+  {
+    "slug": "mastava",
+    "name_uz": "Mastava",
+    "name_ru": "Мастава",
+    "name_en": "Mastava",
+    "nutrition_per_100g": {
+      "calories_kcal": 105,
+      "protein_g": 4.0,
+      "fat_g": 5.0,
+      "carbohydrates_g": 11.0
+    },
+    "source": "Osh Tracker",
+    "source_url": "https://oshtracker.uz/taomlar/mastava-kaloriyasi/"
+  },
+  {
+    "slug": "moshxorda",
+    "name_uz": "Moshxo'rda",
+    "name_ru": "Машхурда",
+    "name_en": "Mashkhurda",
+    "nutrition_per_100g": {
+      "calories_kcal": 90,
+      "protein_g": 3.5,
+      "fat_g": 3.5,
+      "carbohydrates_g": 11.0
+    },
+    "source": "Osh Tracker",
+    "source_url": "https://oshtracker.uz/taomlar/moshxorda-kaloriyasi/"
+  },
+  {
+    "slug": "norin",
+    "name_uz": "Norin",
+    "name_ru": "Нарын",
+    "name_en": "Naryn",
+    "nutrition_per_100g": {
+      "calories_kcal": 238,
+      "protein_g": 15.0,
+      "fat_g": 10.0,
+      "carbohydrates_g": 22.0
+    },
+    "source": "Osh Tracker",
+    "source_url": "https://oshtracker.uz/taomlar/norin-kaloriyasi/"
+  },
+  {
+    "slug": "kabob-shashlik",
+    "name_uz": "Kabob (shashlik)",
+    "name_ru": "Шашлык",
+    "name_en": "Shashlik",
+    "nutrition_per_100g": {
+      "calories_kcal": 181,
+      "protein_g": 15.0,
+      "fat_g": 13.0,
+      "carbohydrates_g": 1.0
+    },
+    "source": "Osh Tracker",
+    "source_url": "https://oshtracker.uz/taomlar/kabob-kaloriyasi/"
+  },
+  {
+    "slug": "hasip",
+    "name_uz": "Hasip",
+    "name_ru": "Хасип",
+    "name_en": "Khasip",
+    "nutrition_per_100g": {
+      "calories_kcal": 215,
+      "protein_g": 6.0,
+      "fat_g": 15.0,
+      "carbohydrates_g": 14.0
+    },
+    "source": "Osh Tracker",
+    "source_url": "https://oshtracker.uz/taomlar/hasip-kaloriyasi/"
+  },
+  {
+    "slug": "dolma",
+    "name_uz": "Dolma",
+    "name_ru": "Долма",
+    "name_en": "Dolma",
+    "nutrition_per_100g": {
+      "calories_kcal": 164,
+      "protein_g": 8.5,
+      "fat_g": 12.0,
+      "carbohydrates_g": 5.5
+    },
+    "source": "Osh Tracker",
+    "source_url": "https://oshtracker.uz/taomlar/dolma-kaloriyasi/"
+  },
+  {
+    "slug": "qovurilgan-kartoshka",
+    "name_uz": "Qovurilgan kartoshka",
+    "name_ru": "Жареный картофель",
+    "name_en": "Fried potatoes",
+    "nutrition_per_100g": {
+      "calories_kcal": 203,
+      "protein_g": 3.0,
+      "fat_g": 11.0,
+      "carbohydrates_g": 23.0
+    },
+    "source": "Osh Tracker",
+    "source_url": "https://oshtracker.uz/taomlar/qovurilgan-kartoshka-kaloriyasi/"
+  },
+  {
+    "slug": "guruch-damlangan",
+    "name_uz": "Guruch (damlangan)",
+    "name_ru": "Рис (на пару)",
+    "name_en": "Steamed rice",
+    "nutrition_per_100g": {
+      "calories_kcal": 127,
+      "protein_g": 2.7,
+      "fat_g": 0.5,
+      "carbohydrates_g": 28.0
+    },
+    "source": "Osh Tracker",
+    "source_url": "https://oshtracker.uz/taomlar/guruch-kaloriyasi/"
+  },
+  {
+    "slug": "qovurilgan-tuxum",
+    "name_uz": "Qovurilgan tuxum",
+    "name_ru": "Жареное яйцо",
+    "name_en": "Fried egg",
+    "nutrition_per_100g": {
+      "calories_kcal": 191,
+      "protein_g": 13.0,
+      "fat_g": 15.0,
+      "carbohydrates_g": 1.0
+    },
+    "source": "Osh Tracker",
+    "source_url": "https://oshtracker.uz/taomlar/qovurilgan-tuxum-kaloriyasi/"
+  },
+  {
+    "slug": "qaynatilgan-tuxum",
+    "name_uz": "Qaynatilgan tuxum",
+    "name_ru": "Вареное яйцо",
+    "name_en": "Boiled egg",
+    "nutrition_per_100g": {
+      "calories_kcal": 144,
+      "protein_g": 12.7,
+      "fat_g": 10.0,
+      "carbohydrates_g": 0.7
+    },
+    "source": "Osh Tracker",
+    "source_url": "https://oshtracker.uz/taomlar/qaynatilgan-tuxum-kaloriyasi/"
+  },
+  {
+    "slug": "sut",
+    "name_uz": "Sut",
+    "name_ru": "Молоко",
+    "name_en": "Milk",
+    "nutrition_per_100g": {
+      "calories_kcal": 63,
+      "protein_g": 3.0,
+      "fat_g": 3.6,
+      "carbohydrates_g": 4.7
+    },
+    "source": "Osh Tracker",
+    "source_url": "https://oshtracker.uz/taomlar/sut-kaloriyasi/"
+  },
+  {
+    "slug": "shirin-choy",
+    "name_uz": "Shirin choy",
+    "name_ru": "Сладкий чай",
+    "name_en": "Sweet tea",
+    "nutrition_per_100g": {
+      "calories_kcal": 28,
+      "protein_g": 0.0,
+      "fat_g": 0.0,
+      "carbohydrates_g": 7.0
+    },
+    "source": "Osh Tracker",
+    "source_url": "https://oshtracker.uz/taomlar/shirin-choy-kaloriyasi/"
+  },
+  {
+    "slug": "baliq-sazan",
+    "name_uz": "Baliq (sazan)",
+    "name_ru": "Карп",
+    "name_en": "Carp",
+    "nutrition_per_100g": {
+      "calories_kcal": 112,
+      "protein_g": 16.0,
+      "fat_g": 5.3,
+      "carbohydrates_g": 0.0
+    },
+    "source": "Osh Tracker",
+    "source_url": "https://oshtracker.uz/taomlar/baliq-kaloriyasi/"
+  },
+  {
+    "slug": "achichuk",
+    "name_uz": "Achichuk",
+    "name_ru": "Ачичук",
+    "name_en": "Achichuk",
+    "nutrition_per_100g": {
+      "calories_kcal": 22,
+      "protein_g": 1.0,
+      "fat_g": 0.1,
+      "carbohydrates_g": 4.5
+    },
+    "source": "Osh Tracker",
+    "source_url": "https://oshtracker.uz/taomlar/achichuk-kaloriyasi/"
+  },
+  {
+    "slug": "bauyrsak",
+    "name_uz": "Bo'g'irsoq",
+    "name_ru": "Баурсак",
+    "name_en": "Bauyrsak",
+    "nutrition_per_100g": {
+      "calories_kcal": 234,
+      "protein_g": 6.8,
+      "fat_g": 2.6,
+      "carbohydrates_g": 45.8
+    },
+    "source": "Calorizator / Bonfit (agreeing)",
+    "source_url": "https://calorizator.ru/product/cake/baursak",
+    "data_quality": "medium"
+  },
+  {
+    "slug": "chak-chak",
+    "name_uz": "Chak-chak",
+    "name_ru": "Чак-чак",
+    "name_en": "Chak-chak",
+    "nutrition_per_100g": {
+      "calories_kcal": 455,
+      "protein_g": 7.5,
+      "fat_g": 19.0,
+      "carbohydrates_g": 63.5
+    },
+    "source": "Gastronom.ru / Calorizator (deep-fried honey variant)",
+    "source_url": "https://www.gastronom.ru/product/chak-chak-1552",
+    "data_quality": "medium"
+  },
+  {
+    "slug": "kurt",
+    "name_uz": "Qurt",
+    "name_ru": "Курт",
+    "name_en": "Kurt",
+    "nutrition_per_100g": {
+      "calories_kcal": 260,
+      "protein_g": 25.0,
+      "fat_g": 16.0,
+      "carbohydrates_g": 2.7
+    },
+    "source": "NUR.KZ / Bonfit / Cheezu (agreeing)",
+    "source_url": "https://www.nur.kz/food/ingredients/kurt/",
+    "data_quality": "medium"
+  },
+  {
+    "slug": "kuyrdak",
+    "name_uz": "Qovurdoq",
+    "name_ru": "Куырдак",
+    "name_en": "Kuyrdak",
+    "nutrition_per_100g": {
+      "calories_kcal": 250,
+      "protein_g": 15.0,
+      "fat_g": 20.0,
+      "carbohydrates_g": 5.0
+    },
+    "source": "1000.menu / NUR.KZ",
+    "source_url": "https://1000.menu/cooking/25932-kuyrdak",
+    "data_quality": "low"
+  },
+  {
+    "slug": "kazy-karta",
+    "name_uz": "Qazi-qarta",
+    "name_ru": "Казы",
+    "name_en": "Kazy (horse sausage)",
+    "nutrition_per_100g": {
+      "calories_kcal": 633,
+      "protein_g": 12.0,
+      "fat_g": 65.0,
+      "carbohydrates_g": 0.0
+    },
+    "source": "Bonfit / Gastronom.ru (agreeing)",
+    "source_url": "https://www.gastronom.ru/product/kazy-2009",
+    "data_quality": "medium"
+  }
+]

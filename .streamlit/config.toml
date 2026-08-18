@@ -1,0 +1,48 @@
+# Matches the warm cream / charcoal / natural-green palette defined in app/theme.py.
+# Native widgets (metrics, badges, inputs, sidebar) read this file; the custom HTML
+# sections read theme.py's CSS variables -- keeping the two in sync is what makes the
+# native app card and the marketing sections around it look like one product instead
+# of two different demos stitched together.
+[theme]
+base = "light"
+primaryColor = "#33493D"
+backgroundColor = "#FBF8F3"
+secondaryBackgroundColor = "#F3EDE3"
+codeBackgroundColor = "#F3EDE3"
+textColor = "#1C1B19"
+linkColor = "#33493D"
+borderColor = "#E7E0D4"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "8px"
+buttonRadius = "8px"
+font = "'Inter':https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#1C1B19"
+baseFontSize = 14
+baseFontWeight = 400
+headingFontSizes = ["36px", "30px", "24px", "20px", "16px", "14px"]
+headingFontWeights = [600, 600, 600, 600, 600, 600]
+linkUnderline = true
+
+grayColor = "#6B6459"
+blueColor = "#3B82F6"
+greenColor = "#3F7D53"
+redColor = "#B3413A"
+yellowColor = "#B08D57"
+orangeColor = "#B08D57"
+violetColor = "#8B5CF6"
+
+[theme.sidebar]
+backgroundColor = "#F3EDE3"
+secondaryBackgroundColor = "#E7E0D4"
+codeBackgroundColor = "#E7E0D4"
+textColor = "#1C1B19"
+borderColor = "#E7E0D4"
+primaryColor = "#33493D"
+
+[client]
+# Hides the "Deploy" button and simplifies the app menu -- keeps the custom header
+# from competing with Streamlit's own default chrome.
+toolbarMode = "minimal"
